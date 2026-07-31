@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto & Orçamentos — Carpintaria Portugal</title>
+  <meta name="description" content="Solicite o seu orçamento gratuito de móveis por medida e carpintaria em Lisboa e região. Contacte-nos por telefone, WhatsApp ou formulário.">
+  <link rel="canonical" href="https://carpintariaportugal.com/contacto/">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="../css/style.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Cursor Glow Overlay -->
+  <div class="cursor-glow" id="glow"></div>
+
+  <!-- Header & Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="../index.html" class="brand-logo">
+        <img src="../images/Logo-Photoroom.png" alt="Carpintaria Portugal Logo">
+        <span class="brand-name">Carpintaria Portugal</span>
+      </a>
+
+      <button class="mobile-toggle" aria-label="Abrir Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="../index.html" class="nav-link">Início</a></li>
+        <li><a href="../cursos/index.html" class="nav-link">Cursos</a></li>
+        <li><a href="../portfolio/index.html" class="nav-link">Portfólio</a></li>
+        <li><a href="index.html" class="nav-link active">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="min-height: 45vh;">
+    <img src="../images/10A3CBF6-A9DD-439F-8D81-B9284A6F809C-1.jpg" class="hero-bg-media" alt="Contacto Carpintaria Portugal">
+    <div class="hero-overlay"></div>
+    
+    <div class="container hero-content fade-up" style="padding-top: 40px;">
+      <span class="section-label">Orçamentos sem Compromisso</span>
+      <h1 class="hero-title">Fale <span class="text-copper">Connosco</span></h1>
+      <p class="hero-subtitle">Estamos prontos para esclarecer todas as suas dúvidas e desenvolver a solução perfeita para a sua casa ou negócio.</p>
+    </div>
+  </section>
+
+  <!-- Main Contact Section -->
+  <section class="container">
+    <div class="contact-wrapper">
+      
+      <!-- Contact Info Box -->
+      <div class="contact-info-box fade-up">
+        <span class="section-label">Contactos Diretos</span>
+        <h2>Atendimento Rápido</h2>
+        <p style="margin-bottom: 30px;">Envie-nos as suas medidas ou ideias e receba uma resposta ou proposta de orçamento com toda a rapidez.</p>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <h4 style="font-size: 1.1rem; color: #fff;">Telefone / WhatsApp</h4>
+            <p><a href="https://wa.me/351912256343" target="_blank" rel="noopener" style="color: var(--color-copper); text-decoration: none; font-weight: 600;">+351 912 256 343</a></p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <h4 style="font-size: 1.1rem; color: #fff;">Email Oficial</h4>
+            <p><a href="mailto:orcamentos@carpintariaportugal.com" style="color: var(--color-copper); text-decoration: none; font-weight: 600;">orcamentos@carpintariaportugal.com</a></p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <h4 style="font-size: 1.1rem; color: #fff;">Área de Cobertura</h4>
+            <p>Lisboa, Cascais, Oeiras, Estoril, Sintra, Comporta e Quinta da Beloura.</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+          <div>
+            <h4 style="font-size: 1.1rem; color: #fff;">Horário de Funcionamento</h4>
+            <p>Segunda a Sexta: 08h00 - 18h00</p>
+          </div>
+        </div>
+
+        <div style="margin-top: 36px;">
+          <a href="https://wa.me/351912256343?text=Olá!%20Gostaria%20de%20pedir%20um%20orçamento%20para%20o%20meu%20projeto." target="_blank" rel="noopener" class="btn btn-primary" style="width: 100%;">
+            <i class="fa-brands fa-whatsapp"></i> Conversar por WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="fade-up">
+        <span class="section-label">Formulário de Orçamento</span>
+        <h2 style="margin-bottom: 24px;">Envie o seu Pedido</h2>
+
+        <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Obrigado! O seu pedido de orçamento foi enviado com sucesso. Entraremos em contacto em breve.');">
+          <div class="form-group">
+            <label class="form-label" for="nome">Nome Completo *</label>
+            <input type="text" id="nome" class="form-input" placeholder="O seu nome" required>
+          </div>
+
+          <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div>
+              <label class="form-label" for="telefone">Contacto Telefónico *</label>
+              <input type="tel" id="telefone" class="form-input" placeholder="912 345 678" required>
+            </div>
+            <div>
+              <label class="form-label" for="email">Endereço de Email *</label>
+              <input type="email" id="email" class="form-input" placeholder="seu@email.com" required>
+            </div>
+          </div>
+
+          <div class="form-group" style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div>
+              <label class="form-label" for="zona">Zona / Concelho</label>
+              <input type="text" id="zona" class="form-input" placeholder="Ex: Cascais, Lisboa...">
+            </div>
+            <div>
+              <label class="form-label" for="assunto">Tipo de Projeto *</label>
+              <select id="assunto" class="form-select" required>
+                <option value="">Selecione o assunto...</option>
+                <option value="Roupeiros / Closets">Roupeiros / Closets</option>
+                <option value="Cozinhas Planeadas">Cozinhas Planeadas</option>
+                <option value="Móveis Personalizados">Móveis Personalizados</option>
+                <option value="Ambientes Comerciais">Ambientes Comerciais</option>
+                <option value="Cursos Intensivos">Cursos Intensivos</option>
+                <option value="Outros Serviços">Outros Serviços</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Planta ou Imagem de Referência (Opcional)</label>
+            <div class="file-upload-wrap">
+              <i class="fa-solid fa-cloud-arrow-up" style="font-size: 1.8rem; color: var(--color-copper); margin-bottom: 8px;"></i>
+              <p style="font-size: 0.9rem;">Clique aqui para selecionar a foto ou PDF do projeto (máx. 5MB)</p>
+              <input type="file" style="display: none;" accept="image/*,.pdf">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="mensagem">Detalhes do Projeto / Mensagem *</label>
+            <textarea id="mensagem" class="form-textarea" placeholder="Descreva brevemente o que pretende (medidas aproximadas, acabamento desejado, prazos)..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; padding: 16px;">
+            <i class="fa-solid fa-paper-plane"></i> Enviar Pedido de Orçamento
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="brand-logo">
+          <img src="../images/Logo-Photoroom.png" alt="Carpintaria Portugal Logo">
+          <span class="brand-name">Carpintaria Portugal</span>
+        </a>
+        <p>Projetos personalizados residenciais e comerciais. Mais de 1.000 projetos entregues com a máxima qualidade e precisão em Lisboa e Região.</p>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Navegação</h4>
+        <ul class="footer-links">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="../cursos/index.html">Cursos Intensivos</a></li>
+          <li><a href="../portfolio/index.html">Portfólio de Projetos</a></li>
+          <li><a href="index.html">Fale Connosco</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Redes Sociais</h4>
+        <div class="social-icons">
+          <a href="https://wa.me/351912256343" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://instagram.com/carpintariaportugal" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://pinterest.com/carpintariaportugal/" target="_blank" rel="noopener" class="social-link" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href="https://www.tiktok.com/@carpintariaportugal" target="_blank" rel="noopener" class="social-link" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+        <p style="margin-top: 16px; font-size: 0.9rem;">📲 912 256 343<br>📩 orcamentos@carpintariaportugal.com</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Carpintaria Portugal. Todos os direitos reservados. Lisboa e Região.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Widget -->
+  <a href="https://wa.me/351912256343" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contacto via WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- JS Scripts -->
+  <script src="../js/main.js"></script>
+</body>
+</html>
